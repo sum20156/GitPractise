@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         val data = getData()
         performOperation(data)
         println("Hey Friend I am in")
+        println("Thanks friend")
     }
 
     private fun performOperation(data: String) {
