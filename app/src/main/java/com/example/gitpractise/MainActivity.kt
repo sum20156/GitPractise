@@ -21,6 +21,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getData(): String {
-        return "Null"
+        return "Data"
     }
 }
