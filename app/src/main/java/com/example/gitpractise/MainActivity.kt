@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val data = getData()
         performOperation(data)
+        println("Hey Friend I am in")
     }
 
     private fun performOperation(data: String) {
